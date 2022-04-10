@@ -34,3 +34,37 @@ t=a
 a=b
 b=t
 print(a,b)
+
+a=int(input('Please enter the number: '))
+b=[]
+while a!=0:
+    b=b+[a]
+    a=int(input('Number please: '))
+print(sum(b))
+
+n = int(input())
+m = 0
+count = 0
+total = 0
+while True:
+    total = m
+    m += int(input())
+    if m > n:
+        print('Довольно!')
+        break
+    count += 1
+
+print(total, count, sep='\n')
+
+a=int(input())
+b=int(input())
+c=0
+d=0
+while c<=a:
+    l=c
+    c=b+c
+    d+=1
+    b=int(input())
+print('Довольно!')
+print(l)
+print(d-1)
