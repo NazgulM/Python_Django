@@ -19,7 +19,7 @@ print(input().replace(' ',','))
 print(','.join(input().split()))
 
 a=int(input())
-print((a-1),a,(a+1),sep=' < ')
+print((a-1),a,(a+1), sep=' < ')
 
 a = int(input())
 print('%s < %s < %s'%(a-1, a, a+1))
