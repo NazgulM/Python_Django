@@ -42,3 +42,7 @@ print(a[1::3])
 print(list(map(int, input().split()))[1::3])
 
 print(list(map(int, input().split()))[::-1])
+
+print(f'{input()} - Сказала она!')
+
+print(input(), end = ' - Сказала она!')
