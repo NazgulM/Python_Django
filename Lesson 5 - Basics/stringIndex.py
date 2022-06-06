@@ -49,3 +49,28 @@ print(b)
 a = 'hello masha'
 a.upper().split()
 print(a)
+
+print(4%5)
+
+re = input().upper()
+
+print('-'.join(re).replace('- -',' '))
+
+a=input().upper().split()
+b=a[0].replace("","-")
+c=a[1].replace("","-")
+
+print(b[1:-1] + " " + c[1:-1])
+
+print(*['-'.join(i) for i in input().upper().split()])
+
+a = input().split()
+print('\n'.join(a))
+
+print('\n'.join(input().split()))
+
+print(*input().split(), sep='\n')
+
+print(input().replace(' ', '\n'))
+a,b,c = input().split()
+print(f'{c} {a[0]}.{b[0]}.')
